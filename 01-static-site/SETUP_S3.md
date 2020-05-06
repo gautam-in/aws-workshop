@@ -7,7 +7,7 @@
 5. Inside the bucket view click on the _Properties_ tab
 6. Then click on the _Static website hosting_ option
 7. Select radio button for "Use this bucket to host a website"
-8. Enter _Index document_ as _index.html_ and _Error document_ as _404.html_ and click _Save_
+8. Enter _Index document_ as _index.html_ and _Error document_ as _404/index.html_ and click _Save_
 9. Now open _Permissions_ tab
 10. Edit the _Block Public Access_ setting
 11. Untick _Block all public access_ checkbox and click _Save_
