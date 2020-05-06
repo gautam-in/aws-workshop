@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "aws s3 sync out/ s3://<your S3 bucketname here> --acl public-read"
   },
   "dependencies": {
     "classnames": "^2.2.6",
