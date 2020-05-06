@@ -20,8 +20,14 @@ yarn build
 
 ## To Deploy
 
-You will need to setup bucket on AWS S3. Steps are mentioned in [S3 setup guide](SETUP_S3.md).
-After you have setup the S3 modify the bucket name in package.json file and before deployment do a production build as mentioned earlier. And then run below command to deploy code on S3.
+Before you start with deployment you will need to complete below steps:
+
+1.  Setup AWS CLI on your system, follow [AWS Official Guide](https://docs.aws.amazon.com/polly/latest/dg/setup-aws-cli.html) for the setup
+2.  Setup S3 bucket on AWS. Steps are mentioned in [S3 setup guide](SETUP_S3.md)
+3.  After you have setup the S3 modify the bucket name in package.json file under deploy script
+4.  Run the production build as mentioned above
+
+Once above steps are done run below command to deploy your code on AWS S3.
 
 ```bash
 npm run build
