@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "aws s3 sync out/ s3://gc-demo-site --acl public-read"
+    "deploy": "aws s3 sync out/ s3://<s3-bucket-name-here> --acl public-read"
   },
   "dependencies": {
     "classnames": "^2.2.6",
